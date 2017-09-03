@@ -10,6 +10,7 @@ Conta padrão (automaticamente criada): <br />
 Username: admin <br />
 Password: admin <br />
 
+<br />
 
 #1 - Estes programas só funcionam em Linux e MacOS
 
@@ -34,48 +35,50 @@ salesdb - Registo de vendas
 usersdb/"USERNAME"/shoplist - Base de dados da lista de compras (carrinho) do utilizador 
 com o username "USERNAME"
 
-
+<br />
 
 Comandos para compilar os ficheiros:
 
 Linux:
-server = gcc -Wall -Wextra -Wconversion -Wsign-conversion -Wformat-security -fstack-protector-all --param ssp-buffer-size=1 -D_FORTIFY_SOURCE=2 -O2 -Wl,-z,relro,-z,now server.c -o server_linux
-client = gcc -Wall -Wextra -Wconversion -Wsign-conversion -Wformat-security -fstack-protector-all --param ssp-buffer-size=1 -D_FORTIFY_SOURCE=2 -O2 -Wl,-z,relro,-z,now client.c -o client_linux
+server = gcc -Wall -Wextra -Wconversion -Wsign-conversion -Wformat-security -fstack-protector-all --param ssp-buffer-size=1 -D_FORTIFY_SOURCE=2 -O2 -Wl,-z,relro,-z,now server.c -o server_linux <br />
+client = gcc -Wall -Wextra -Wconversion -Wsign-conversion -Wformat-security -fstack-protector-all --param ssp-buffer-size=1 -D_FORTIFY_SOURCE=2 -O2 -Wl,-z,relro,-z,now client.c -o client_linux <br />
 
 Mac OS:
-server = gcc -Wall -Wextra -Wconversion -Wsign-conversion -Wformat-security -fstack-protector-all --param ssp-buffer-size=1 -D_FORTIFY_SOURCE=2 -O2 server.c -o server_macos
-client = gcc -Wall -Wextra -Wconversion -Wsign-conversion -Wformat-security -fstack-protector-all --param ssp-buffer-size=1 -D_FORTIFY_SOURCE=2 -O2 client.c -o client_macos
+server = gcc -Wall -Wextra -Wconversion -Wsign-conversion -Wformat-security -fstack-protector-all --param ssp-buffer-size=1 -D_FORTIFY_SOURCE=2 -O2 server.c -o server_macos <br />
+client = gcc -Wall -Wextra -Wconversion -Wsign-conversion -Wformat-security -fstack-protector-all --param ssp-buffer-size=1 -D_FORTIFY_SOURCE=2 -O2 client.c -o client_macos <br />
 
-Explicação das opções de compilação:
--Wall -Wextra
-Mostrar todos os avisos para garantir que o código está sem erros
+<br />
 
--Wconversion -Wsign-conversion
-Mostrar avisos de tipos de variáveis não compativeis
+Explicação das opções de compilação: <br />
+-Wall -Wextra <br />
+Mostrar todos os avisos para garantir que o código está sem erros <br />
 
--Wformat-security
-Mostrar avisos sobre o uso de funções que podem representar problemas de segurança
+-Wconversion -Wsign-conversion <br />
+Mostrar avisos de tipos de variáveis não compativeis <br />
 
--fstack-protector-all
-Ligar Canary (proteção de segurança)
+-Wformat-security <br />
+Mostrar avisos sobre o uso de funções que podem representar problemas de segurança <br />
 
---param ssp-buffer-size=1
-Tamanho mínimo necessário para um array ter a proteção de stack smashing quando a opção -fstack-protection é usada
+-fstack-protector-all <br />
+Ligar Canary (proteção de segurança) <br />
 
--D_FORTIFY_SOURCE=2 -O2
-Ligar Fortify (o macro FORTIFY_SOURCE consegue detetar alguns buffers overflows em algumas funções que fazem operações com a memória e strings)
+--param ssp-buffer-size=1 <br />
+Tamanho mínimo necessário para um array ter a proteção de stack smashing quando a opção -fstack-protection é usada <br />
 
--Wl,-z,relro,-z,now
-Ligar RELRO na proteção máxima (técnica de mitigação de corrupção de memória)
+-D_FORTIFY_SOURCE=2 -O2 <br />
+Ligar Fortify (o macro FORTIFY_SOURCE consegue detetar alguns buffers overflows em algumas funções que fazem operações com a memória e strings) <br />
 
+-Wl,-z,relro,-z,now <br />
+Ligar RELRO na proteção máxima (técnica de mitigação de corrupção de memória) <br />
 
+ <br />
 
 Comandos para executar os binários:
 
-server = ./server
-client = ./client
+server = ./server <br />
+client = ./client <br />
 
-
+ <br />
 
 Informações contidas nos ficheiros:
 
@@ -87,7 +90,7 @@ salesdb - CÓDIGO;QUANTIDADE;USERNAME_DE_QUEM_COMPROU;DIA/MES/ANO
 
 usersdb/"USERNAME"/shoplist - CÓDIGO;QUANTIDADE
 
-
+ <br />
 
 Feito por Frederico Emanuel e Fernando Silva no âmbito do projeto da cadeira de 1º ano, Laboratório de Computadores, da Licenciatura em Ciência de Computadores e Mestrado Integrado em Engenharia de Redes e Sistemas Informáticos na mui nobre Faculdade de Ciências da Universidade do Porto.
 Frederico Emanuel Almeida Lopes, up201604674
