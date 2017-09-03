@@ -25,7 +25,7 @@ necessários à boa execução do programa
 
 <br />
 
-Ficheiros:
+Ficheiros: <br />
 userdb - Base de dados das informações dos utilizadores existentes
 
 productdb - Base de dados dos produtos existentes
