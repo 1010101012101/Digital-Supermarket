@@ -3,13 +3,12 @@ Project for the subject "Laboratório de Computadores" ("Computer Lab") of the d
 
 <br />
 <br />
-<br />
 
 -----Manual de intruções dos programas de gestão do supermercado----- <br />
 
 Conta padrão (automaticamente criada): <br />
 Username: admin <br />
-Password: admin
+Password: admin <br />
 
 
 #1 - Estes programas só funcionam em Linux e MacOS
@@ -23,7 +22,7 @@ necessários à boa execução do programa
 #4 - Ao executar o ficheiro servidor, se não existir nenhuma conta com permissões de administrador, 
 é automaticamente criada a conta padrão (admin)
 
-
+<br />
 
 Ficheiros:
 userdb - Base de dados das informações dos utilizadores existentes
