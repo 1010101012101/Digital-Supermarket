@@ -1,17 +1,11 @@
 # Supermarket
 Project for the subject "Laboratório de Computadores" ("Computer Lab") of the degree of Computer Science and integrated master in Engineering in Networking and Information Systems in the Faculty of Sciences of the University of Porto that consists in making a server and a client for a supermarket controlled locally by files. The code and comments are in portuguese so the README is also in portuguese.
 
-<br />
-<br />
-
------Manual de intruções dos programas de gestão do supermercado----- <br />
-
+### Manual de intruções dos programas de gestão do supermercado:
 Conta padrão (automaticamente criada): <br />
 Username: admin <br />
 Password: admin <br />
-
-<br />
-
+### Informações
 #1 - Estes programas só funcionam em Linux e MacOS
 
 #2 - Usar o programa é simples e direto bastando seguir as instruções que aparecem no ecra.
