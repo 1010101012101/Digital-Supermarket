@@ -80,5 +80,5 @@ client = ./client <br />
 ### Autores
 Feito por Frederico Emanuel e Fernando Silva no âmbito do projeto da cadeira de 1º ano, Laboratório de Computadores, da Licenciatura em Ciência de Computadores e Mestrado Integrado em Engenharia de Redes e Sistemas Informáticos na mui nobre Faculdade de Ciências da Universidade do Porto.
 
-* Frederico Emanuel Almeida Lopes, up201604674 - [FredyR4zox](https://github.com/FredyR4zox)
-* Fernando Daniel Sousa Ventura da Silva, up201604670
+* Frederico Emanuel Almeida Lopes - up201604674 - [FredyR4zox](https://github.com/FredyR4zox)
+* Fernando Daniel Sousa Ventura da Silva - up201604670
