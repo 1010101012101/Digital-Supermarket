@@ -1,4 +1,4 @@
-# Supermarket
+# Supermarket-Manager
 Project for the subject "Laboratório de Computadores" ("Computer Lab") of the degree of Computer Science and integrated master in Engineering in Networking and Information Systems in the Faculty of Sciences of the University of Porto that consists in making a server and a client for a supermarket controlled locally by files. The code and comments are in portuguese so the README is also in portuguese.
 
 
