@@ -1,4 +1,4 @@
-# Digital-Supermarket
+# Digital Supermarket
 Project for the subject "Laboratório de Computadores" ("Computer Lab") of the degree of Computer Science and Master's Degree in Network and Information Systems Engineering of the Faculty of Sciences of the University of Porto that consists in making a server and a client for a supermarket controlled locally by files. The code and comments are in portuguese so the README is also in portuguese.
 
 
