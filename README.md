@@ -9,20 +9,20 @@ Password: admin <br />
 
 
 ### Informações
-* Estes programas só funcionam em Linux e MacOS
+* Estes programas só funcionam em Linux e MacOS.
 * Usar o programa é simples e direto bastando seguir as instruções que aparecem no ecra.
-Dica: Usar em modo fullscreen
+Dica: Usar em modo fullscreen.
 * Ao executar os ficheiros cliente ou servidor, é automaticamente criado os ficheiros 
-necessários à boa execução do programa
+necessários à boa execução do programa.
 * Ao executar o ficheiro servidor, se não existir nenhuma conta com permissões de administrador, 
-é automaticamente criada a conta padrão (admin)
+é automaticamente criada a conta padrão (admin).
 
 
 ### Ficheiros
-* userdb - Base de dados das informações dos utilizadores existentes
-* productdb - Base de dados dos produtos existentes
-* salesdb - Registo de vendas
-* usersdb/"USERNAME"/shoplist - Base de dados da lista de compras (carrinho) do utilizador com o username "USERNAME"
+* userdb - Base de dados das informações dos utilizadores existentes.
+* productdb - Base de dados dos produtos existentes.
+* salesdb - Registo de vendas.
+* usersdb/"USERNAME"/shoplist - Base de dados da lista de compras (carrinho) do utilizador com o username "USERNAME".
 
 
 ### Comandos para compilar o projeto
@@ -44,25 +44,25 @@ $ gcc -Wall -Wextra -Wconversion -Wsign-conversion -Wformat-security -fstack-pro
 
 ### Explicação das opções de compilação
 -Wall -Wextra <br />
-Mostrar todos os avisos para garantir que o código está sem erros
+Mostrar todos os avisos para garantir que o código está sem erros.
 
 -Wconversion -Wsign-conversion <br />
-Mostrar avisos de tipos de variáveis não compativeis
+Mostrar avisos de tipos de variáveis não compativeis.
 
 -Wformat-security <br />
-Mostrar avisos sobre o uso de funções que podem representar problemas de segurança
+Mostrar avisos sobre o uso de funções que podem representar problemas de segurança.
 
 -fstack-protector-all <br />
-Ligar Canary (proteção de segurança)
+Ligar Canary (proteção de segurança).
 
 --param ssp-buffer-size=1 <br />
-Tamanho mínimo necessário para um array ter a proteção de stack smashing quando a opção -fstack-protection é usada
+Tamanho mínimo necessário para um array ter a proteção de stack smashing quando a opção -fstack-protection é usada.
 
 -D_FORTIFY_SOURCE=2 <br />
-Ligar Fortify (o macro FORTIFY_SOURCE consegue detetar alguns buffers overflows em algumas funções que fazem operações com a memória e strings)
+Ligar Fortify (o macro FORTIFY_SOURCE consegue detetar alguns buffers overflows em algumas funções que fazem operações com a memória e strings).
 
 -Wl,-z,relro,-z,now <br />
-Ligar RELRO na proteção máxima (técnica de mitigação de corrupção de memória)
+Ligar RELRO na proteção máxima (técnica de mitigação de corrupção de memória).
 
 
 ### Comandos para executar os binários
